@@ -1,0 +1,92 @@
+body{
+    background: rgb(230, 230, 230);
+    font-family: "Microsoft YaHei";
+    
+}
+h3{
+    font-size: 14px;
+    font-weight: normal;
+}
+.resume{
+    width: 41%;
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+}
+.resume .left{
+    width: 270px;
+    background-color: rgb(243, 243, 243);
+    float: left;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+.resume .left .head-portrait .intro .name{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.resume .left .head-portrait .intro .expectation{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    padding-left: 12px;
+}
+.resume .left .head-portrait .intro{
+    padding: 0 29px;
+    margin-top: -32px;
+}
+.resume .left .skills{
+    padding-left: 34px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+main>div>div>h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(114, 205, 226);
+    display: inline-block;
+}
+main>div>div>p{
+    font-size: 10px;
+    color: rgb(166, 166, 166);
+    display: inline-block;
+}
+.resume .left .skills .list{
+    list-style: none;
+    padding: 0;
+    border-left: 1px dashed rgb(166, 166, 166);
+   
+}
+.resume .left .skills .list>li{
+    margin-left: -6px
+}
+.resume .left .skills .list>li>h3{
+    margin:10px 0px 10px 18px;
+
+}
+.resume .left .skills .list .circle{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: rgb(189, 215, 238);
+    display: inline-block;
+    
+}
+
+.resume .left .skills .list .progressBar{
+    width: 210px;
+    height: 9px;
+    display: inline-block;
+    margin: 1px 0px 1px -7px;
+    background-color:rgb(217, 217, 217);
+    border-radius: 0 10px 10px 0
+}
+.resume .left .skills .list .progressBar .progress{
+    background-color:rgb(114, 205, 226);
+    height: 9px;
+    width: 80%;
+    border-radius: 0 10px 10px 0
+}
